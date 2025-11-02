@@ -1,5 +1,12 @@
 # Latte Asset Node
 
+<p>
+<!-- Version Badge -->
+<img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version 1.0.0">
+<!-- License Badge -->
+<img src="https://img.shields.io/badge/License-GPL--3.0--or--later-40adbc" alt="License GPL-3.0-or-later">
+</p>
+
 An extension for enabling the asset tag in Latte templates.
 
 ## Installation
@@ -17,7 +24,7 @@ package with Symfony, you can register the extension by including it in your `co
 <?php
 
 return [
-    \CloudBase\AssetNode\AssetExtension::class => [],
+    CloudBase\AssetNode\AssetExtension::class => [],
 ];
 ```
 
@@ -26,7 +33,7 @@ Latte engine:
 
 ```php
 $latteEngine = new Latte\Engine();
-$latteEngine->addExtension(new \CloudBase\AssetNode\AssetExtension());
+$latteEngine->addExtension(new CloudBase\AssetNode\AssetExtension());
 ```
 
 ## Usage

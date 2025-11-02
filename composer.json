@@ -3,6 +3,9 @@
   "description": "Provides the asset tag for Latte templates.",
   "version": "1.0.0",
   "type": "library",
+  "scripts": {
+    "badge": "./vendor/bin/badger badge:version . && ./vendor/bin/badger badge:license ."
+  },
   "autoload": {
     "psr-4": {
       "CloudBase\\AssetNode\\": "src/"
@@ -10,5 +13,9 @@
   },
   "require": {
     "latte/latte": "^3.0"
-  }
+  },
+  "require-dev": {
+    "loomsoftware/badger": "^1.0"
+  },
+  "license": "GPL-3.0-or-later"
 }
