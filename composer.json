@@ -1,0 +1,14 @@
+{
+  "name": "cloudbase/asset-node",
+  "description": "Provides the asset tag for Latte templates.",
+  "version": "1.0.0",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "CloudBase\\AssetNode\\": "src/"
+    }
+  },
+  "require": {
+    "latte/latte": "^3.0"
+  }
+}
